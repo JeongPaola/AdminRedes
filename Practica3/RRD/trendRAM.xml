@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rrd SYSTEM "https://oss.oetiker.ch/rrdtool/rrdtool.dtd">
+<!-- Round Robin Database Dump -->
+<rrd>
+	<version>0003</version>
+	<step>60</step> <!-- Seconds -->
+	<lastupdate>1669823367</lastupdate> <!-- 2022-11-30 09:49:27 CST -->
+
+	<ds>
+		<name> usoRAM </name>
+		<type> GAUGE </type>
+		<minimal_heartbeat>60</minimal_heartbeat>
+		<min>NaN</min>
+		<max>NaN</max>
+
+		<!-- PDP Status -->
+		<last_ds>56</last_ds>
+		<value>1.5306681600e+03</value>
+		<unknown_sec> 0 </unknown_sec>
+	</ds>
+
+	<!-- Round Robin Archives -->
+	<rra>
+		<cf>AVERAGE</cf>
+		<pdp_per_row>1</pdp_per_row> <!-- 60 seconds -->
+
+		<params>
+		<xff>5.0000000000e-01</xff>
+		</params>
+		<cdp_prep>
+			<ds>
+			<primary_value>5.6000000000e+01</primary_value>
+			<secondary_value>NaN</secondary_value>
+			<value>NaN</value>
+			<unknown_datapoints>0</unknown_datapoints>
+			</ds>
+		</cdp_prep>
+		<database>
+			<!-- 2022-11-30 09:26:00 CST / 1669821960 --> <row><v>NaN</v></row>
+			<!-- 2022-11-30 09:27:00 CST / 1669822020 --> <row><v>NaN</v></row>
+			<!-- 2022-11-30 09:28:00 CST / 1669822080 --> <row><v>NaN</v></row>
+			<!-- 2022-11-30 09:29:00 CST / 1669822140 --> <row><v>NaN</v></row>
+			<!-- 2022-11-30 09:30:00 CST / 1669822200 --> <row><v>3.5505876706e+01</v></row>
+			<!-- 2022-11-30 09:31:00 CST / 1669822260 --> <row><v>3.6000000000e+01</v></row>
+			<!-- 2022-11-30 09:32:00 CST / 1669822320 --> <row><v>3.7214022433e+01</v></row>
+			<!-- 2022-11-30 09:33:00 CST / 1669822380 --> <row><v>3.8000000000e+01</v></row>
+			<!-- 2022-11-30 09:34:00 CST / 1669822440 --> <row><v>4.0650331833e+01</v></row>
+			<!-- 2022-11-30 09:35:00 CST / 1669822500 --> <row><v>4.3000000000e+01</v></row>
+			<!-- 2022-11-30 09:36:00 CST / 1669822560 --> <row><v>4.2582338650e+01</v></row>
+			<!-- 2022-11-30 09:37:00 CST / 1669822620 --> <row><v>4.2000000000e+01</v></row>
+			<!-- 2022-11-30 09:38:00 CST / 1669822680 --> <row><v>4.2000000000e+01</v></row>
+			<!-- 2022-11-30 09:39:00 CST / 1669822740 --> <row><v>4.2000000000e+01</v></row>
+			<!-- 2022-11-30 09:40:00 CST / 1669822800 --> <row><v>4.2000000000e+01</v></row>
+			<!-- 2022-11-30 09:41:00 CST / 1669822860 --> <row><v>4.2000000000e+01</v></row>
+			<!-- 2022-11-30 09:42:00 CST / 1669822920 --> <row><v>4.2000000000e+01</v></row>
+			<!-- 2022-11-30 09:43:00 CST / 1669822980 --> <row><v>4.2000000000e+01</v></row>
+			<!-- 2022-11-30 09:44:00 CST / 1669823040 --> <row><v>4.2404837950e+01</v></row>
+			<!-- 2022-11-30 09:45:00 CST / 1669823100 --> <row><v>4.3000000000e+01</v></row>
+			<!-- 2022-11-30 09:46:00 CST / 1669823160 --> <row><v>5.0339703100e+01</v></row>
+			<!-- 2022-11-30 09:47:00 CST / 1669823220 --> <row><v>6.1000000000e+01</v></row>
+			<!-- 2022-11-30 09:48:00 CST / 1669823280 --> <row><v>5.9099537500e+01</v></row>
+			<!-- 2022-11-30 09:49:00 CST / 1669823340 --> <row><v>5.6000000000e+01</v></row>
+		</database>
+	</rra>
+</rrd>
